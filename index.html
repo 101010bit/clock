@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>about time</title> 
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" href="css/main.css">     
 </head>
 <body>
-    <h1>Time in Denmark</h1> 
+    <h1>Time in Denmark</h1>
+    <div class="clock-b">
+        <p id="all"></p>
+    </div>
 
-    <p id="demo"></p>
+    <br>
 
-<script>
-    const d = new Date();
-    document.getElementById("demo").innerHTML = d;
-</script>
+    <div class="clock-a">
+        <canvas id="canvas" width="400" height="400" style="background-color:whitesmoke"></canvas>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/clock.js"></script> 
 </body>
 </html>
